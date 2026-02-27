@@ -118,7 +118,10 @@ E. Ứng dụng hướng Domain-Driven Design (DDD)
 1. **Định nghĩa:**: Chia ứng dụng thành các tầng xếp chồng lên nhau.
 
 2. **Mô hình**
+
 ```
+AI created
+
 Presentation Layer (UI/Controllers)
         ↓
 Application Layer (Services)
@@ -148,6 +151,8 @@ Infrastructure Layer (Database)
 
 2. **Mô hình** 
 ```
+AI created
+
 Entities (Enterprise-wide)
     ↓
 Use Cases (Application-specific)
@@ -177,6 +182,8 @@ Frameworks & Drivers (DB, UI, External)
 2. Mô hình
 
 ```
+AI created
+
 Model (Data + Business Logic)
     ↕
 Controller (Xử lý request)

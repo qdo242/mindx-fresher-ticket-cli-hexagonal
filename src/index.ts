@@ -1,9 +1,9 @@
-import { FileRepository } from "./adapters/secondary/FileRepository.js";
+import { HttpTicketRepository } from "./adapters/secondary/HttpTicketRepository.js";
 import { TicketService } from "./domain/services/TicketService.js";
 import { CliAdapter } from "./adapters/primary/CliAdapter.js";
 
 
-const repository = new FileRepository();
+const repository = new HttpTicketRepository('http://localhost:3000');
 
 const ticketService = new TicketService(repository);
 
